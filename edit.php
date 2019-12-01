@@ -100,7 +100,7 @@
                         }  
                             echo "สิทธิการรักษาพยาบาล : <br />";
                             echo "<select name=\"medicalrights\">";
-                            if($kmr=="cash"){
+                            if($kmr=="Cash"){
                                 echo "<option value=\"Cash\"selected>เงินสด</option>";
                                 echo "<option value=\"CGD\">จ่ายตรงกรมบัญชีกลาง</option>";
                                 echo "<option value=\"SSO\">ประกันสังคม</option>";
